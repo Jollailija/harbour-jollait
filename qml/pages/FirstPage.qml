@@ -40,6 +40,16 @@ Page {
 
     property bool zoom: false // This is for choosing the pixelratiohack
 
+    // Workaround for 'High Power Consumption' webkit bug by mkiol
+    Connections {
+        target: Qt.application
+        onActiveChanged: {
+            if(!Qt.application.active && settings.powerSaveMode) {
+                pageStack.pop();
+            }
+        }
+    }
+
     DockedPanel {
         id: navPanel
         dock: Dock.Bottom
@@ -89,7 +99,7 @@ Page {
         url: "http://www.jollacommunity.it"
         PullDownMenu {
             MenuLabel {
-                text: qsTr("Jolla Italia WebView") + " 0.3"
+                text: qsTr("Jolla Italia WebView") + " 0.3.3"
             }
             MenuItem {
                 text: navPanel.open ? qsTr("Hide navigation bar")

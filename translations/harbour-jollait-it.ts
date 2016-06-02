@@ -21,7 +21,7 @@
     <message>
         <location filename="../qml/pages/BookmarkPage.qml" line="107"/>
         <source>Bookmarks</source>
-        <translation>Segnalibri</translation>
+        <translation>Preferiti</translation>
     </message>
     <message>
         <location filename="../qml/pages/BookmarkPage.qml" line="125"/>
@@ -70,22 +70,22 @@
 <context>
     <name>FirstPage</name>
     <message>
-        <location filename="../qml/pages/FirstPage.qml" line="92"/>
+        <location filename="../qml/pages/FirstPage.qml" line="102"/>
         <source>Jolla Italia WebView</source>
         <translation>Jolla Italia WebView</translation>
     </message>
     <message>
-        <location filename="../qml/pages/FirstPage.qml" line="95"/>
+        <location filename="../qml/pages/FirstPage.qml" line="105"/>
         <source>Hide navigation bar</source>
         <translation>Nascondi navbar</translation>
     </message>
     <message>
-        <location filename="../qml/pages/FirstPage.qml" line="96"/>
+        <location filename="../qml/pages/FirstPage.qml" line="106"/>
         <source>Open navigation bar</source>
         <translation>Mostra navbar</translation>
     </message>
     <message>
-        <location filename="../qml/pages/FirstPage.qml" line="102"/>
+        <location filename="../qml/pages/FirstPage.qml" line="112"/>
         <source>Open in browser</source>
         <translation>Apri nel browser</translation>
     </message>
